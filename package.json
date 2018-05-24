@@ -1,0 +1,60 @@
+{
+  "name": "gulp-bootlint",
+  "version": "0.9.0",
+  "description": "A gulp wrapper for Bootlint, the HTML linter for Bootstrap projects",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tschortsch/gulp-bootlint"
+  },
+  "author": {
+    "name": "Juerg Hunziker",
+    "email": "juerg.hunziker@gmail.com",
+    "url": "http://juerghunziker.ch"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "pretest": "./node_modules/.bin/eslint *.js test/*.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulpplugin",
+    "bootlint",
+    "bootstrap",
+    "html",
+    "markup",
+    "code",
+    "style",
+    "validate",
+    "lint",
+    "check",
+    "checker"
+  ],
+  "dependencies": {
+    "ansi-colors": "^1.1.0",
+    "bootlint": "^0.14.2",
+    "log": "^1.4.0",
+    "merge": "^1.2.0",
+    "plugin-error": "^1.0.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.1.1",
+    "should": "^13.2.1",
+    "vinyl": "^2.1.0"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/tschortsch/gulp-bootlint/issues"
+  },
+  "homepage": "https://github.com/tschortsch/gulp-bootlint",
+  "jshintConfig": {
+    "node": true
+  }
+}
