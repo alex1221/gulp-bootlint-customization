@@ -1,6 +1,6 @@
 {
   "name": "gulp-bootlint-customization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gulp wrapper for Bootlint, the HTML linter for Bootstrap projects",
   "license": "MIT",
   "repository": {
@@ -12,7 +12,7 @@
     "email": "juerg.hunziker@gmail.com",
     "url": "http://juerghunziker.ch"
   },
-  "customer":"alex liu <alex1221@163.com>",
+  "customer": "alex liu <alex1221@163.com>",
   "engines": {
     "node": ">=0.10.0"
   },
