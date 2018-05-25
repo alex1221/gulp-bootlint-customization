@@ -12,7 +12,7 @@ var PluginError = require('plugin-error');
 var through = require('through2');
 var Log = require('log');
 var merge = require('merge');
-var bootlint = require('bootlint');
+var bootlint = require('bootlint-customization');
 
 // consts
 var PLUGIN_NAME = 'gulp-bootlint';
